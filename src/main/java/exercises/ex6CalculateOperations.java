@@ -1,6 +1,6 @@
 package exercises;
 
-public class calculateOperations {
+public class ex6CalculateOperations {
 
     public static void main (String[] args){
         calculation(125, 24, 1);

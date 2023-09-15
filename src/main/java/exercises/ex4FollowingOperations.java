@@ -1,6 +1,6 @@
 package exercises;
 
-public class followingOperations {
+public class ex4FollowingOperations {
 
     public static void main(String[] args){
         expression1(-5, 8, 6);
