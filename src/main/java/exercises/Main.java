@@ -16,6 +16,7 @@ public class Main {
         System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
         perimeterAndArea11(7.5);
         average12(5,5,5);
+        rectangle13(5.6, 8.5);
 
     }
     public static void calc(int argOne, int argTwo){
@@ -43,5 +44,11 @@ public class Main {
     public static void average12(double a, double b, double c){
         double calculateAverage = (a + b + c) / 3;
         System.out.println(calculateAverage);
+    }
+    public static void rectangle13(double width, double height){
+        double area = width * height;
+        double perimeter = 2  * (width + height);
+        System.out.println("Area is = " + area);
+        System.out.println("Perimeter is = " + perimeter);
     }
 }
