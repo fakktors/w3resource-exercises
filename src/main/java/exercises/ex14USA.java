@@ -1,6 +1,6 @@
 package exercises;
 
-public class ex15USA {
+public class ex14USA {
     public static void main(String[] args){
             System.out.println("* * * * * * ==================================");
             System.out.println(" * * * * *  ==================================");
